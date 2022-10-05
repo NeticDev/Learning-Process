@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: sans-serif;
+  border: 5px solid black;
+  margin: 50px auto;
+  width: 825px;
+}
+
+/* TITLES */
+
+h2,
+h3 {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px 0;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+/* PRICE */
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* INFO LINK */
+
+.description {
+  margin-bottom: 10px;
+}
+
+.infolink {
+  margin-bottom: 20px;
+}
+
+.moreinfo:link,
+.moreinfo:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.moreinfo:hover,
+.moreinfo:active {
+  text-decoration: none;
+}
+
+/* DETAILS LIST */
+
+li {
+  list-style: square;
+  margin: 10px 20px;
+}
+
+/* BUTTON */
+
+.add-cart {
+  color: white;
+  background-color: black;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid black;
+}
+
+.add-cart:hover {
+  color: black;
+  background-color: white;
+}
