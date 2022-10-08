@@ -33,7 +33,32 @@ h3 {
   font-size: 16px;
 }
 
+article {
+  position: relative;
+}
+
+div a {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
 /* PRICE */
+
+.sale {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  padding: 6px 12px;
+  font-display: center;
+  position: absolute;
+
+  top: -20px;
+  left: -40px;
+}
 
 .price {
   font-size: 24px;
@@ -66,6 +91,44 @@ h3 {
 .moreinfo:hover,
 .moreinfo:active {
   text-decoration: none;
+}
+
+/* Colors */
+
+.black {
+  display: inline-block;
+  background-color: #000;
+  padding: 10px;
+}
+
+.blue {
+  display: inline-block;
+  background-color: #0000ff;
+  padding: 10px;
+}
+
+.red {
+  display: inline-block;
+  background-color: #ff0000;
+  padding: 10px;
+}
+
+.yellow {
+  display: inline-block;
+  background-color: rgb(255, 255, 0);
+  padding: 10px;
+}
+
+.green {
+  display: inline-block;
+  background-color: #00ff00;
+  padding: 10px;
+}
+
+.brown {
+  display: inline-block;
+  background-color: #a52a2a;
+  padding: 10px;
 }
 
 /* DETAILS LIST */
