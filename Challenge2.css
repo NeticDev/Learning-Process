@@ -42,23 +42,21 @@ div a {
   margin-right: 10px;
 }
 
-/* PRICE */
-
 .sale {
   display: inline-block;
   background-color: red;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 0.3em;
+  letter-spacing: 3px;
   font-size: 14px;
   padding: 6px 12px;
-  font-display: center;
   position: absolute;
-
-  top: -20px;
-  left: -40px;
+  top: -18px;
+  left: -38px;
 }
+
+/* PRICE */
 
 .price {
   font-size: 24px;
@@ -96,39 +94,39 @@ div a {
 /* Colors */
 
 .black {
-  display: inline-block;
   background-color: #000;
   padding: 10px;
+  display: inline-block;
 }
 
 .blue {
-  display: inline-block;
   background-color: #0000ff;
   padding: 10px;
+  display: inline-block;
 }
 
 .red {
-  display: inline-block;
   background-color: #ff0000;
   padding: 10px;
+  display: inline-block;
 }
 
 .yellow {
-  display: inline-block;
   background-color: rgb(255, 255, 0);
   padding: 10px;
+  display: inline-block;
 }
 
 .green {
-  display: inline-block;
   background-color: #00ff00;
   padding: 10px;
+  display: inline-block;
 }
 
 .brown {
-  display: inline-block;
   background-color: #a52a2a;
   padding: 10px;
+  display: inline-block;
 }
 
 /* DETAILS LIST */
