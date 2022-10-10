@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -60,6 +61,7 @@ div a {
 
 .price {
   font-size: 24px;
+  float: left;
 }
 
 .shipping {
@@ -67,17 +69,20 @@ div a {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  float: right;
 }
 
 /* INFO LINK */
 
 .description {
   margin-bottom: 10px;
+  padding-top: 10px;
+  clear: both;
 }
 
 .infolink {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .moreinfo:link,
@@ -153,4 +158,23 @@ li {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+.img {
+  float: left;
+  height: 250px;
+}
+
+.info {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.details {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
