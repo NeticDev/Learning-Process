@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -60,15 +60,21 @@ div a {
 /* PRICE */
 
 .info {
-  float: left;
-  width: 240px;
-  margin-left: 40px;
-  margin-top: 20px;
+  /* float: left; */
+  /* width: 240px; */
+  /* margin-left: 40px;
+  margin-top: 20px; */
+  flex: 0 1 250px;
+}
+
+.info-price-shipping {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price {
   font-size: 24px;
-  float: left;
+  /* float: left; */
 }
 
 .shipping {
@@ -77,7 +83,7 @@ div a {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 10px;
-  float: right;
+  /* float: right; */
 }
 
 /* INFO LINK */
@@ -105,50 +111,56 @@ div a {
 
 /* Colors */
 
+.colors {
+  display: flex;
+  gap: 7px;
+}
+
 .black {
   background-color: #000;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .blue {
   background-color: #0000ff;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .red {
   background-color: #ff0000;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .yellow {
   background-color: rgb(255, 255, 0);
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .green {
   background-color: #00ff00;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .brown {
   background-color: #a52a2a;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /* DETAILS LIST */
 
-
 .details {
-  float: left;
-  width: 240px;
+  /* float: left; */
+  /* width: 240px;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 20px; */
+  /* height: 250px; */
+  flex: 0 1 250px;
 }
 
 li {
@@ -175,8 +187,13 @@ li {
   background-color: white;
 }
 
-.img {
-  float: left;
-  height: 250px;
+img {
+  /* float: left; */
+  /* height: 250px; */
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
