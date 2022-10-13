@@ -59,6 +59,13 @@ div a {
 
 /* PRICE */
 
+.info {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
 .price {
   font-size: 24px;
   float: left;
@@ -136,6 +143,14 @@ div a {
 
 /* DETAILS LIST */
 
+
+.details {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
 li {
   list-style: square;
   margin: 10px 20px;
@@ -165,16 +180,3 @@ li {
   height: 250px;
 }
 
-.info {
-  float: left;
-  width: 240px;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.details {
-  float: left;
-  width: 240px;
-  margin-left: 40px;
-  margin-top: 20px;
-}
