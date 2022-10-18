@@ -38,11 +38,6 @@ article {
   position: relative;
 }
 
-div a {
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
-
 .sale {
   display: inline-block;
   background-color: red;
@@ -64,12 +59,13 @@ div a {
   /* width: 240px; */
   /* margin-left: 40px;
   margin-top: 20px; */
-  flex: 0 1 250px;
+  flex: 1;
 }
 
 .info-price-shipping {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .price {
@@ -82,7 +78,6 @@ div a {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 10px;
   /* float: right; */
 }
 
@@ -91,7 +86,7 @@ div a {
 .description {
   margin-bottom: 10px;
   padding-top: 10px;
-  clear: both;
+  /* clear: both; */
 }
 
 .infolink {
@@ -113,7 +108,7 @@ div a {
 
 .colors {
   display: flex;
-  gap: 7px;
+  gap: 10px;
 }
 
 .black {
@@ -160,7 +155,7 @@ div a {
   margin-left: 40px;
   margin-top: 20px; */
   /* height: 250px; */
-  flex: 0 1 250px;
+  flex: 1;
 }
 
 li {
@@ -187,13 +182,7 @@ li {
   background-color: white;
 }
 
-img {
-  /* float: left; */
-  /* height: 250px; */
-}
-
 .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 40px;
 }
