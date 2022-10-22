@@ -59,8 +59,8 @@ article {
   /* width: 240px; */
   /* margin-left: 40px;
   */
-  margin-top: 20px;
-  flex: 1;
+  /* margin-top: 20px; */
+  /* flex: 1;  */
 }
 
 .info-price-shipping {
@@ -156,8 +156,8 @@ article {
   margin-left: 40px;
   margin-top: 20px; */
   /* height: 250px; */
-  flex: 1;
-  margin-top: 20px;
+  /* flex: 1;
+  margin-top: 20px; */
 }
 
 li {
@@ -184,7 +184,22 @@ li {
   background-color: white;
 }
 
-.container {
+/* .container {
   display: flex;
   gap: 40px;
+} */
+
+article {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-column-gap: 40px;
+  align-items: center;
+}
+
+h2 {
+  grid-column: 1 / -1;
+}
+
+.button {
+  grid-column: 1 / -1;
 }
